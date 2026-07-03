@@ -1,2 +1,2 @@
-# Redirect root to amazon.html
-/  /amazon.html  200
+# Serve the homepage at the site root.
+/  /index.html  200
