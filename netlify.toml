@@ -1,12 +1,9 @@
 # Netlify configuration for Amazon Project
+# For a static site, no build process is needed
 
 [build]
-  # Directory to deploy
   publish = "."
-  # No build command needed since this is a static site
-  command = ""
 
-# Set proper headers for caching and security
 [[headers]]
   for = "/*"
   [headers.values]
