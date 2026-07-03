@@ -1,0 +1,46 @@
+# Netlify configuration for Amazon Project
+
+[build]
+  # Directory to deploy
+  publish = "."
+  # No build command needed since this is a static site
+  command = ""
+
+# Set proper headers for caching and security
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    X-XSS-Protection = "1; mode=block"
+
+# Cache CSS files longer
+[[headers]]
+  for = "/styles/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Cache image files longer
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Cache JavaScript files longer
+[[headers]]
+  for = "/scripts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Cache data files
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Set proper cache for JSON data
+[[headers]]
+  for = "/backend/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
