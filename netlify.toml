@@ -4,6 +4,11 @@
 [build]
   publish = "."
 
+[[redirects]]
+  from = "/"
+  to = "/amazon.html"
+  status = 200
+
 [[headers]]
   for = "/*"
   [headers.values]
