@@ -209,3 +209,131 @@
   margin-top: 11px;
   margin-bottom: 15px;
 }
+
+/* Mobile responsive improvements */
+@media (max-width: 750px) {
+  .main {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 120px;
+    margin-bottom: 60px;
+  }
+
+  .page-title {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .cart-item-container,
+  .payment-summary {
+    padding: 12px;
+  }
+
+  .cart-item-details-grid {
+    column-gap: 15px;
+  }
+}
+
+@media (max-width: 575px) {
+  .main {
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+
+  .page-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .checkout-grid {
+    gap: 8px;
+  }
+
+  .cart-item-container,
+  .payment-summary {
+    padding: 10px;
+    margin-bottom: 8px;
+  }
+
+  .cart-item-details-grid {
+    grid-template-columns: 80px 1fr;
+    column-gap: 10px;
+    row-gap: 15px;
+  }
+
+  .product-image {
+    max-height: 100px;
+  }
+
+  .product-name {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .product-price {
+    font-size: 14px;
+  }
+
+  .delivery-options-title {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .delivery-option {
+    margin-bottom: 8px;
+  }
+
+  .delivery-option-date {
+    font-size: 13px;
+  }
+
+  .delivery-option-price {
+    font-size: 12px;
+  }
+
+  .payment-summary-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .payment-summary-row {
+    font-size: 13px;
+    margin-bottom: 6px;
+  }
+
+  .total-row {
+    font-size: 16px;
+    padding-top: 12px;
+  }
+
+  .place-order-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .main {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .cart-item-details-grid {
+    grid-template-columns: 70px 1fr;
+    column-gap: 8px;
+  }
+
+  .product-image {
+    max-height: 80px;
+  }
+
+  .payment-summary {
+    margin-bottom: 0;
+  }
+}

@@ -154,3 +154,148 @@
   padding: 8px;
   border-radius: 50px;
 }
+
+/* Additional mobile responsive improvements */
+@media (max-width: 750px) {
+  .main {
+    margin-top: 55px;
+  }
+
+  .product-container {
+    padding-top: 25px;
+    padding-bottom: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .product-image-container {
+    height: 140px;
+    margin-bottom: 15px;
+  }
+
+  .product-name {
+    height: auto;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .product-rating-container {
+    margin-bottom: 8px;
+  }
+
+  .product-rating-stars {
+    width: 80px;
+  }
+
+  .product-rating-count {
+    font-size: 13px;
+  }
+
+  .product-price {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .product-quantity-container {
+    margin-bottom: 12px;
+  }
+
+  .add-to-cart-button {
+    padding: 6px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 575px) {
+  .main {
+    margin-top: 50px;
+  }
+
+  .product-container {
+    padding-top: 15px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .product-image-container {
+    height: 120px;
+    margin-bottom: 10px;
+  }
+
+  .product-name {
+    font-size: 13px;
+    margin-bottom: 3px;
+  }
+
+  .product-rating-container {
+    margin-bottom: 5px;
+  }
+
+  .product-rating-stars {
+    width: 70px;
+  }
+
+  .product-rating-count {
+    font-size: 11px;
+  }
+
+  .product-price {
+    font-size: 13px;
+    margin-bottom: 6px;
+  }
+
+  .product-quantity-container {
+    margin-bottom: 8px;
+  }
+
+  .product-quantity-container select {
+    padding: 3px 4px;
+    font-size: 12px;
+  }
+
+  .added-to-cart {
+    font-size: 13px;
+    margin-bottom: 6px;
+  }
+
+  .added-to-cart img {
+    height: 16px;
+    margin-right: 3px;
+  }
+
+  .add-to-cart-button {
+    padding: 5px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .product-container {
+    padding-top: 12px;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .product-image-container {
+    height: 100px;
+    margin-bottom: 8px;
+  }
+
+  .product-name {
+    font-size: 12px;
+  }
+
+  .product-rating-stars {
+    width: 65px;
+  }
+
+  .product-price {
+    font-size: 12px;
+  }
+
+  .add-to-cart-button {
+    padding: 4px;
+  }
+}

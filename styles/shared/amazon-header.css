@@ -147,3 +147,197 @@
   width: 26px;
   text-align: center;
 }
+
+/* Mobile responsive improvements */
+@media (max-width: 750px) {
+  .amazon-header {
+    height: 55px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .amazon-header-left-section {
+    width: auto;
+  }
+
+  .amazon-logo {
+    width: 90px;
+  }
+
+  .amazon-header-middle-section {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .search-bar {
+    height: 35px;
+    font-size: 14px;
+    padding-left: 10px;
+  }
+
+  .search-button {
+    width: 40px;
+    height: 37px;
+  }
+
+  .search-icon {
+    height: 18px;
+  }
+
+  .amazon-header-right-section {
+    width: 150px;
+    gap: 5px;
+  }
+
+  .returns-text {
+    font-size: 11px;
+  }
+
+  .orders-text {
+    font-size: 13px;
+  }
+
+  .cart-icon {
+    width: 40px;
+  }
+
+  .cart-text {
+    font-size: 13px;
+    margin-top: 8px;
+  }
+
+  .cart-quantity {
+    font-size: 14px;
+    width: 24px;
+  }
+}
+
+@media (max-width: 575px) {
+  .amazon-header {
+    height: 50px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .amazon-logo {
+    display: none;
+  }
+
+  .amazon-mobile-logo {
+    display: block;
+    height: 30px;
+    margin-top: 3px;
+  }
+
+  .amazon-header-middle-section {
+    flex: 1;
+    max-width: 100%;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+  .search-bar {
+    height: 32px;
+    font-size: 13px;
+    padding-left: 8px;
+  }
+
+  .search-button {
+    width: 38px;
+    height: 34px;
+  }
+
+  .search-icon {
+    height: 16px;
+    margin-left: 1px;
+    margin-top: 2px;
+  }
+
+  .amazon-header-right-section {
+    width: auto;
+    gap: 3px;
+  }
+
+  .header-link {
+    padding: 3px;
+  }
+
+  .orders-link {
+    display: flex;
+    align-items: center;
+  }
+
+  .returns-text {
+    font-size: 9px;
+    display: block;
+  }
+
+  .orders-text {
+    font-size: 11px;
+  }
+
+  .cart-icon {
+    width: 35px;
+  }
+
+  .cart-text {
+    font-size: 11px;
+    margin-top: 6px;
+  }
+
+  .cart-quantity {
+    font-size: 12px;
+    width: 20px;
+    top: 3px;
+    left: 18px;
+  }
+}
+
+@media (max-width: 400px) {
+  .amazon-header {
+    height: 48px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .amazon-mobile-logo {
+    height: 28px;
+    margin-top: 2px;
+  }
+
+  .amazon-header-middle-section {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  .search-bar {
+    height: 30px;
+    font-size: 12px;
+    padding-left: 6px;
+  }
+
+  .search-button {
+    width: 35px;
+    height: 32px;
+  }
+
+  .search-icon {
+    height: 14px;
+  }
+
+  .returns-text {
+    font-size: 8px;
+  }
+
+  .orders-text {
+    font-size: 10px;
+  }
+
+  .cart-icon {
+    width: 32px;
+  }
+
+  .cart-text {
+    font-size: 10px;
+  }
+}

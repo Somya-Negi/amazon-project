@@ -79,3 +79,93 @@
   border-radius: 50px;
   width: 50%;
 }
+
+/* Mobile responsive improvements */
+@media (max-width: 750px) {
+  .main {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+  }
+
+  .delivery-date {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .product-image {
+    max-width: 120px;
+    max-height: 120px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+
+  .progress-labels-container {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+}
+
+@media (max-width: 575px) {
+  .main {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+  }
+
+  .back-to-orders-link {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .delivery-date {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+
+  .product-info {
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+
+  .product-image {
+    max-width: 100px;
+    max-height: 100px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+
+  .progress-labels-container {
+    font-size: 14px;
+    margin-bottom: 8px;
+  }
+
+  .progress-bar-container {
+    height: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .main {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  .product-image {
+    max-width: 80px;
+    max-height: 80px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .progress-labels-container {
+    font-size: 12px;
+  }
+
+  .progress-bar-container {
+    height: 18px;
+  }
+}

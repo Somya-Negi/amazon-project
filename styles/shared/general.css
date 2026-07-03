@@ -99,3 +99,50 @@ select:focus,
 input:focus {
   outline: 2px solid rgb(255, 153, 0);
 }
+
+/* Mobile responsive improvements for forms and buttons */
+@media (max-width: 575px) {
+  body {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+
+  select {
+    padding: 5px 8px;
+    font-size: 13px;
+  }
+
+  input {
+    font-size: 13px;
+  }
+
+  .button-primary {
+    border-radius: 6px;
+    font-size: 13px;
+  }
+
+  .button-secondary {
+    border-radius: 6px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 400px) {
+  button {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  select {
+    padding: 4px 6px;
+    font-size: 12px;
+  }
+
+  input {
+    font-size: 12px;
+  }
+}
